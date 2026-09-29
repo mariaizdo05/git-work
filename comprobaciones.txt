@@ -1,0 +1,85 @@
+=== ESTADO DEL REPOSITORIO ===
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     README.md
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	comprobaciones.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+=== REMOTOS CONFIGURADOS ===
+espejo	git@github.com:mariaizdo05/git-work-espejo.git (fetch)
+espejo	git@github.com:mariaizdo05/git-work-espejo.git (push)
+origin	git@github.com:mariaizdo05/git-work.git (fetch)
+origin	git@github.com:mariaizdo05/git-work.git (push)
+
+=== RAMAS ===
+  custom-text
+* main
+  remotes/espejo/main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/cool-colors
+  remotes/origin/custom-text
+  remotes/origin/main
+
+=== TAGS ===
+0.1.0
+
+=== AUTORES DE LOS COMMITS ===
+María Izquierdo Hernández <mariaizquierdohdez05@gmail.com>
+mariaizdo05 <167110920+mariaizdo05@users.noreply.github.com>
+
+=== HISTORIAL DE COMMITS ===
+* edd5b18 (HEAD -> main, tag: 0.1.0, origin/main, origin/HEAD) Añade sombra al botón principal y cierra la issue #3
+*   1cbd5e3 Resuelve el conflicto de cover.css
+|\  
+| * 82e80e7 (origin/cool-colors) Cambia el color del botón principal a verde oscuro
+* | 9b7a421 Cambia el color del botón principal a morado
+|/  
+*   3af3e5b Merge pull request #2 from mariaizdo05/custom-text
+|\  
+| * 6f08315 Afina el eslogan de la portada
+| * d4da7a9 (origin/custom-text, custom-text) Ajusta el texto del pie de página
+| * b0a88db Personaliza la portada para la startup
+|/  
+* 9390a4f (espejo/main) Corrige el enlace de la documentación
+* 3ef3caf Añade documentación con MkDocs e integración continua
+* 7befa71 Añade la página de la startup y su hoja de estilos
+* ade565a Initial commit
+
+=== ESTRUCTURA DEL PROYECTO ===
+.
+├── comprobaciones.txt
+├── css
+│   └── cover.css
+├── docs
+│   └── index.md
+├── .github
+│   └── workflows
+│       └── ci.yml
+├── github
+│   └── workflows
+├── .gitignore
+├── index.html
+├── LICENSE
+├── mkdocs.yml
+└── README.md
+
+7 directories, 9 files
+
+=== ULTIMO COMMIT ===
+commit edd5b187c1edb27fe7050f1e27bd4bf2f3ba27c2
+Author: María Izquierdo Hernández <mariaizquierdohdez05@gmail.com>
+Commit: María Izquierdo Hernández <mariaizquierdohdez05@gmail.com>
+
+    Añade sombra al botón principal y cierra la issue #3
+    
+    Aplica text-shadow 2px 2px 8px lightgreen al botón principal.
+    
+    Closes #3
